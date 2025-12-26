@@ -289,8 +289,8 @@ export class GameScene extends Phaser.Scene {
     } else if (this.talkCount === 3) {
       this.startDialog([
         "「このゲームはChatGPTとの問答による\nプログラミングで制作されました」",
-        "「詳しくは、https://github.com/keroppa88\nをご覧ください。」",
-        "「ダ――ッ！」",
+        "「詳しくは、\nhttps://github.com/keroppa88\nをご覧ください。」",
+        "「いくぞっ、1～2～3～\nダ――ッ！」",
       ]);
     } else {
       this.startDialog(["ダーッ！"]);
@@ -341,7 +341,7 @@ openChest(id) {
     ]);
 
     // ★サウンドは「装備した。」の行が表示された瞬間に鳴らす（次項で実装）
-    this.pendingSound = { text: "炎の剣を装備した。", key: "firesword" };
+    this.pendingSound = { text: "闘魂の剣を装備した。", key: "firesword" };
 
     return;
   }
@@ -366,7 +366,7 @@ openChest(id) {
     this.money += 30;
     this.startDialog([
       "ビットコインのようなものを手に入れた。",
-      `+30円 → 所持金・130円`,
+      `+30円 → 所持金＝130円`,
     ]);
 
     this.safePlay("coin");
@@ -479,3 +479,4 @@ openChest(id) {
     }
   }
 }
+
