@@ -290,7 +290,9 @@ export class GameScene extends Phaser.Scene {
       this.startDialog([
         "「このゲームはChatGPTとの問答による\nプログラミングで制作されました」",
         "「詳しくは、\nhttps://github.com/keroppa88\nをご覧ください。」",
-        "「いくぞっ、1～2～3～\nダ――ッ！」",
+        "「いくぞっ、\n1～2～3～」",
+        "「ダーーッ！」",
+        
       ]);
     } else {
       this.startDialog(["ダーッ！"]);
@@ -479,4 +481,5 @@ openChest(id) {
     }
   }
 }
+
 
