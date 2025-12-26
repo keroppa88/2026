@@ -8,8 +8,6 @@
   * →https://www.youtube.com/watch?v=F4YynloCjdM&list=PLS4jAfE9d3aIH4hmxxbmzp-T8ummBC-Jj
 * フレームワーク：Phaser 3
 * 描画：Canvas（360×360 固定）
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/db7aaefd-5983-49af-8a7f-f2cae7f23bd3" />				
-<img width="200" height="200" alt="hero01" src="https://github.com/user-attachments/assets/87b20d7b-046f-40b7-8caa-563e86b3ac04" />
-<img width="200" height="200" alt="inoki" src="https://github.com/user-attachments/assets/1bbe4772-bddb-4dff-ad0d-eb53e52dd591" />
-
-
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/ed545005-d23d-44d1-85c9-64ec7bd6f5da" />
+<img width="300" height="300" alt="hero01" src="https://github.com/user-attachments/assets/266d75c1-9765-4b76-8472-77de95a096fd" />
+<img width="300" height="300" alt="inoki" src="https://github.com/user-attachments/assets/2423c969-667f-4196-9242-7fca8208101a" />
